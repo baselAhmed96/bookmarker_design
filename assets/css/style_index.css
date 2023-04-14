@@ -1,0 +1,42 @@
+/* ======================== General Css ========================*/
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+html
+{
+    overflow-x: hidden;
+}
+body
+{
+    background-color: #212529;
+}
+#addBtn
+{
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}
+#addBtn:hover
+{
+    background: #0DCAF0;
+    box-shadow: 0 0 5px #0DCAF0, 0 0 25px #0DCAF0, 0 0 50px #0DCAF0, 0 0 100px #0DCAF0;
+}
+.editHover:hover
+{
+    box-shadow:0 0 5px #FFC107, 0 0 25px #FFC107, 0 0 50px #FFC107, 0 0 100px #FFC107!important; 
+}
+.editCss
+{
+    background-color:#FFC107!important ;
+    border-color:#FFC107!important;
+}
+.error
+{
+    color: red;
+}
